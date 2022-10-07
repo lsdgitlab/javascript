@@ -21,7 +21,10 @@ import style from '../css/main.scss';
 // import increMent from "../js/incrementing-counter.js";
 
 // // Movie App
-// import moviApp from "../js/movie-app.js";
+// import moviApp from "../js/movie-app.js"; 
+
+// // background-slider
+import moviApp from "../js/background-slider.js"; 
 
 
 

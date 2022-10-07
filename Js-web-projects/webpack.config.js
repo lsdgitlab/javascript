@@ -86,11 +86,16 @@ module.exports = {
     //     location:'counter',
     //     template_filename: ['index.html']
     //    }),
-    //    new HtmlWebpackPartialsPlugin({
-    //     path:path.join(__dirname,'src/movie-app.html'),
-    //     location:'movie',
-    //     template_filename: ['index.html']
-    //    }),
+       new HtmlWebpackPartialsPlugin({
+        path:path.join(__dirname,'src/movie-app.html'),
+        location:'movie',
+        template_filename: ['index.html']
+       }),
+       new HtmlWebpackPartialsPlugin({
+        path:path.join(__dirname,'src/background-slider.html'),
+        location:'background',
+        template_filename: ['index.html']
+       }),
        new MiniCssExtractPlugin(),
     //    Lisitng file in dist folder
        new CopyWebpackPlugin({
