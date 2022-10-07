@@ -1,4 +1,4 @@
-node_modules/
-dist/
+Js-web-projects/node_modules/
+Js-web-projects/dist/
 /.idea
 .vscode/*

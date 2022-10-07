@@ -96,6 +96,11 @@ module.exports = {
         location:'background',
         template_filename: ['index.html']
        }),
+       new HtmlWebpackPartialsPlugin({
+        path:path.join(__dirname,'src/button-ripple-effect.html'),
+        location:'ripple',
+        template_filename: ['index.html']
+       }),
        new MiniCssExtractPlugin(),
     //    Lisitng file in dist folder
        new CopyWebpackPlugin({

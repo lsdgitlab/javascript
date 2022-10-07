@@ -24,7 +24,10 @@ import style from '../css/main.scss';
 // import moviApp from "../js/movie-app.js"; 
 
 // // background-slider
-import moviApp from "../js/background-slider.js"; 
+// import moviApp from "../js/background-slider.js"; 
+
+// button-ripple-effect
+import btnRipplw from "../js/button-ripple-effect.js"; 
 
 
 
