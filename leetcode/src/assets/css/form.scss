@@ -1,0 +1,131 @@
+
+  
+  .form-container {
+    background-color:#fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    width: 380px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  .form-container .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .form-container a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background:#001c54;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .btn:focus {
+    outline: 0;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .text {
+    margin-top: 30px;
+  }
+  
+  .form-control {
+    position: relative;
+    margin: 15px 0 20px;
+    width: 300px;
+    
+  }
+  
+  .form-control input {
+    background-color: transparent;
+    border: 0;
+    border: 1px solid #ebebeb;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-color: #001c54;
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+  }
+  
+  .form-control label span {
+    display: inline-block;
+    font-size: 12px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #7a7a7a;
+  }
+  
+  .form-control input:focus + label span,
+  .form-control input:valid + label span {
+    color: #001c54;
+    transform: translateY(-30px);
+  }
+  .form-control select{width: 100%;height: 38px;color: #7a7a7a;border: 1px solid #ebebeb; border-radius: 5px; font-size: 12px;text-indent: 4px;}
+
+  .formdesign {
+    font-size: 20px;
+
+}
+
+.formdesign input {
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px solid blue;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.formerror {
+    color: red;
+}
+.errorbg{background: #fcccd4 !important;border:solid 1px #f00 !important}
+.form-control input.brd{border:solid 1px #f00}
+
+.but {
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin: 22px 20px;
+}
+input:focus + .input-desc {
+  cursor: default;
+  width: 265px;     
+  -moz-box-shadow: 0px 2px 5px #aaaaaa;
+  -webkit-box-shadow: 0px 2px 5px #aaaaaa;
+  box-shadow: 0px 2px 5px #aaaaaa; 
+  animation:desc 0.3s;
+  -moz-animation:desc 0.3s; /* Firefox */
+  -webkit-animation:desc 0.3s; /* Safari and Chrome */  
+}
