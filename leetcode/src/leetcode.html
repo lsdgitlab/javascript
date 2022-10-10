@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="icon" src="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<style>
+    input:focus + label span,
+input:valid + label span{
+    color:lightblue;
+   transform: translateY(-30px);
+    
+}
+</style>
+</head>
+<body>
+    <div class="form-control">
+        <form action="#!" class="" id="bookAptOne">
+            <div class="col-input">
+              <div class="control">
+                <label for="">Full Name</label>
+                <input type="text" class="form-control" name="fname">
+              </div>
+            </div>
+           
+            <div class="col-input">
+              <div class="control">
+                <label for="">Email Address</label>
+                <input type="email" class="form-control" name="email" >
+              </div>
+            </div>                  
+            <div class="col-input careers act">
+              <div class="control">
+                <select class="form-control" name="fname" required>
+                  <option class="placeholder" value="">Select Topic</option>
+                  <option value="Part Time">Corporate communication</option>
+                  <option value="Full Time">Career opportunity</option>
+                </select>
+              </div>
+            </div>
+    
+            <div class="col-input">
+              <div class="control">
+                <textarea class="form-control"  name="message" rows="4" placeholder="Message" required></textarea>
+              </div>
+            </div>
+    
+    
+            <button type="submit" >Submit</button>
+          </form>
+    </div>
+   
+    <div class="top-banner-bg">
+        <header>
+            <!-- <img src="assets/img/TranscodedWallpaper.jpg" aa /> -->
+        </header>
+    </div>
+    <!-- <header>
+        <h1><%= htmlWebpackPlugin.options.title %></h1>
+        <h2></h2>
+        <p>test</p>
+        <img src="" id="bannerImg" />
+        <img src="assets/img/TranscodedWallpaper.jpg" />        
+    </header> -->
+</body>
+</html>

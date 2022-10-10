@@ -1,0 +1,6 @@
+Js-web-projects/node_modules/
+Js-web-projects/dist/
+leetcode/node_modules/
+leetcode/dist/
+/.idea
+.vscode/*
