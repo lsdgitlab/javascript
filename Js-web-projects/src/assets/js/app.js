@@ -54,7 +54,14 @@ import codewars from "../js/codewars.js";
 // import btnRipplw from "../js/button-ripple-effect.js"; 
 
 // drawing-app
-import draapp from "../js/drawing-app.js";
+// import draapp from "../js/drawing-app.js";
+
+// content-placeholder
+// import cntloadAnimt from "../js/content-placeholder.js";
+
+// drag-n-drop
+import cntloadAnimt from "../js/drag-n-drop.js";
+
 
 
 

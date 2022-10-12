@@ -142,11 +142,22 @@ module.exports = {
     //     location:'ripple',
     //     template_filename: ['index.html']
     //    }),
+    //    new HtmlWebpackPartialsPlugin({
+    //     path:path.join(__dirname,'src/drawing-app.html'),
+    //     location:'drwaapp',
+    //     template_filename: ['index.html']
+    //    }),
+    //     new HtmlWebpackPartialsPlugin({
+    //     path:path.join(__dirname,'src/content-placeholder.html'),
+    //     location:'contPlace',
+    //     template_filename: ['index.html']
+    //    }),
        new HtmlWebpackPartialsPlugin({
-        path:path.join(__dirname,'src/drawing-app.html'),
-        location:'drwaapp',
+        path:path.join(__dirname,'src/drag-n-drop.html'),
+        location:'drag-and-drop',
         template_filename: ['index.html']
        }),
+
           
        new MiniCssExtractPlugin(),
     //    Lisitng file in dist folder
