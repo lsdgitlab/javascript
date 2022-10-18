@@ -1,12 +1,12 @@
 // $bgcolor: salmon;
 // $banBgPathAbt:image-url('../img/banner-fund-mngt.jpg');
-$banBgPathAbt:url(../img/banner-fund-mngt.jpg) no-repeat left top;
+// $banBgPathAbt:url(../img/banner-fund-mngt.jpg) no-repeat left top;
 // @import "quize";
 // @import "normalize";
 // @import "dad-jokes.scss";
 // @import "event-keycodes.scss";
 // @import "faq-collapse.scss";
-// @import "form.scss";
+@import "form.scss";
 // @import "progress-steps.scss";
 // @import "sound-board.scss";
 // @import "incrementing-counter.scss";
@@ -17,14 +17,17 @@ $banBgPathAbt:url(../img/banner-fund-mngt.jpg) no-repeat left top;
 // @import "button-ripple-effect.scss";
 // @import "drawing-app.scss";
 // @import "content-placeholder.scss";
-@import "drag-n-drop.scss";
+// @import "drag-n-drop.scss";
+// @import "sticky-navigation.scss";
+// @import "double-vertical-slider.scss";
+@import "toast-notification.scss";
 
 body{
     // background-color:#00205c;
     font-family: Poppins;
     font-size: 13px;
     h1{font-size: 25px;}
-    .top-banner-bg{background:$banBgPathAbt;height: 300px;}
+    // .top-banner-bg{background:$banBgPathAbt;height: 300px;}
 
 }
 .webGl{position: fixed;left: 0;top: 0;outline: none;}

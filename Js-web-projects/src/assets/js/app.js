@@ -1,4 +1,3 @@
-import style from '../css/main.scss';
 // import style1 from '../css/main.css';
 // import component from './component.js';
 // import componentCircle from './circle.js'
@@ -9,7 +8,7 @@ import style from '../css/main.scss';
 // import editcode from "../js/edited.js";
 
 // codewars
-import codewars from "../js/codewars.js";
+// import codewars from "../js/codewars.js";
 
 // // Leetcode
 // import leetCode from "../js/leetcode.js";
@@ -24,7 +23,7 @@ import codewars from "../js/codewars.js";
 // import faqCollapse from "../js/faq-collapse.js";
 
 // form
-// import form from "../js/form.js"; 
+import form from "../js/form.js"; 
 
 // // Progress 
 // import progrssStep from "../js/progress-steps.js";
@@ -60,7 +59,17 @@ import codewars from "../js/codewars.js";
 // import cntloadAnimt from "../js/content-placeholder.js";
 
 // drag-n-drop
-import cntloadAnimt from "../js/drag-n-drop.js";
+// import cntloadAnimt from "../js/drag-n-drop.js";
+
+// sticky-navigation
+// import sticky from "../js/sticky-navigation.js";
+
+// double-vertical-slider
+// import sticky from "../js/double-vertical-slider.js";
+
+// toast-notification
+import sticky from "../js/toast-notification.js";
+
 
 
 
