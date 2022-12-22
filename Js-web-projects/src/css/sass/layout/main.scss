@@ -1,0 +1,26 @@
+// $bgcolor: salmon;
+// $banBgPathAbt:image-url('../img/banner-fund-mngt.jpg');
+// $banBgPathAbt:url(../img/banner-fund-mngt.jpg) no-repeat left top;
+// @import "quize";
+// @import "normalize";
+// @import "dad-jokes.scss";
+// @import "event-keycodes.scss";
+// @import "faq-collapse.scss";
+// @import "form.scss";
+// @import "progress-steps.scss";
+// @import "sound-board.scss";
+// @import "incrementing-counter.scss";
+// @import "movie-app.scss";
+// @import url('random-choice-picker.scss');
+// @import url('animated-navigation.scss');
+// @import "drink-water.scss";
+body{
+    // background-color:#00205c;
+    font-family: Poppins;
+    font-size: 13px;
+    h1{font-size: 25px;}
+    .top-banner-bg{background:$banBgPathAbt;height: 300px;}
+
+}
+.webGl{position: fixed;left: 0;top: 0;outline: none;}
+
