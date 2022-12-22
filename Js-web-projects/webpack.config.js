@@ -25,7 +25,39 @@ const htmlPageNames = [
         title: 'Balloon game'
     }, 
     {
-        pageName: '.html',
+        pageName: 'button-ripple-effect.html',
+        title: ''
+    }, 
+    {
+        pageName: 'circle.html',
+        title: ''
+    }, 
+    {
+        pageName: 'cntdwn.html',
+        title: ''
+    }, 
+    {
+        pageName: 'content-placeholder.html',
+        title: ''
+    }, 
+    {
+        pageName: 'dad-jokes.html',
+        title: ''
+    }, 
+    {
+        pageName: 'default.html',
+        title: ''
+    }, 
+    {
+        pageName: 'double-vertical-slider.html',
+        title: ''
+    }, 
+    {
+        pageName: 'drag-n-drop.html',
+        title: ''
+    }, 
+    {
+        pageName: 'drawing-app.html',
         title: ''
     }, 
     {
@@ -33,69 +65,81 @@ const htmlPageNames = [
         title: ''
     }, 
     {
-        pageName: '.html',
+        pageName: 'drink-water.html',
         title: ''
     }, 
     {
-        pageName: '.html',
+        pageName: 'event-keycodes.html',
         title: ''
     }, 
     {
-        pageName: '.html',
+        pageName: 'expanding-cards.html',
         title: ''
     }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // {
-    //     pageName: '.html',
-    //     title: ''
-    // }, 
-    // { 
-    //     pageName: '.html',
-    //     title: ''
-    // }
+    {
+        pageName: 'form-input-wave.html',
+        title: ''
+    }, 
+    {
+        pageName: 'guess-number.html',
+        title: ''
+    }, 
+    {
+        pageName: 'hidden-search.html',
+        title: ''
+    }, 
+    {
+        pageName: 'incrementing-counter.html',
+        title: ''
+    }, 
+    { 
+        pageName: 'index.html',
+        title: ''
+    },
+    {
+        pageName: 'movie-app.html',
+        title: ''
+    }, 
+    {
+        pageName: 'progress-steps.html',
+        title: ''
+    }, 
+    {
+        pageName: 'quize.html',
+        title: ''
+    }, 
+    {
+        pageName: 'random-choice-picker.html',
+        title: ''
+    }, 
+    { 
+        pageName: 'rotating-nav-animation.html',
+        title: ''
+    }, 
+    {
+        pageName: 'scroll-animation.html',
+        title: ''
+    }, 
+    {
+        pageName: 'sound-board.html',
+        title: ''
+    }, 
+    {
+        pageName: 'split-landing-page.html',
+        title: ''
+    }, 
+    { 
+        pageName: 'sticky-navigation.html',
+        title: ''
+    }, 
+    { 
+        pageName: 'toast-notification.html',
+        title: ''
+    }, 
+    { 
+        pageName: 'validate-form.html',
+        title: ''
+    }
 ];
 // get the html page name
 let htmlFileName = htmlPageNames.map(htmlPage=> htmlPage.pageName);
