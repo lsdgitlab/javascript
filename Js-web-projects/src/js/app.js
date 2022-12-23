@@ -13,14 +13,14 @@ observer.observe();
 // import style1 from '../css/main.css';
 
 // animated-navigation.html
-import animatedN from "../js/animated-navigation.js";
+// import animatedN from "../js/animated-navigation.js";
 
 // // background-slider
-import moviApp from "../js/background-slider.js"; 
+// import moviApp from "../js/background-slider.js"; 
 
-import balloongame from "../js/balloon-game.js"; 
+// import balloongame from "../js/balloon-game.js"; 
 
-
+// import "../json/wikipedia.js"; 
 
 
 // import component from './component.js';
@@ -47,7 +47,7 @@ import balloongame from "../js/balloon-game.js";
 // import faqCollapse from "../js/faq-collapse.js";
 
 // form
-import form from "../js/form.js"; 
+// import form from "../js/form.js"; 
 
 // // Progress 
 // import progrssStep from "../js/progress-steps.js";

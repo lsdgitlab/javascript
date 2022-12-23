@@ -59,11 +59,7 @@ const htmlPageNames = [
     {
         pageName: 'drawing-app.html',
         title: ''
-    }, 
-    {
-        pageName: '.html',
-        title: ''
-    }, 
+    },
     {
         pageName: 'drink-water.html',
         title: ''
@@ -90,10 +86,6 @@ const htmlPageNames = [
     }, 
     {
         pageName: 'incrementing-counter.html',
-        title: ''
-    }, 
-    { 
-        pageName: 'index.html',
         title: ''
     },
     {
@@ -139,7 +131,11 @@ const htmlPageNames = [
     { 
         pageName: 'validate-form.html',
         title: ''
-    }
+    }, 
+    {
+        pageName: 'wikipedia.html',
+        title: ''
+    }, 
 ];
 // get the html page name
 let htmlFileName = htmlPageNames.map(htmlPage=> htmlPage.pageName);

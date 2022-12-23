@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link href="./favicon.ico" rel="icon" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <title>Map Api</title>
+    <link rel="icon" src="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <style>
+      #map{
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+
+  </head>
+  <body data-barba="wrapper" >
+    
+    
+    <!-- <div id="search">
+      <input type="text" class="val" value="">
+      <button class="" id="search button">Search Result</button>
+      <div class="output"></div>      
+      <script src="./js/wikipedia.js"></script>
+    </div> -->
+
+    <div id="map">
+
+    </div>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.js" integrity="sha512-Dqm3h1Y4qiHUjbhxTuBGQsza0Tfppn53SHlu/uj1f+RT+xfShfe7r6czRf5r2NmllO2aKx+tYJgoxboOkn1Scg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script> 
+<script>
+  // map initialization
+
+  var map = L.map('map').setView([ 20.5937, 78.9629], 5);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+
+</script>
+
+
+
+
+</body>
+</html>
