@@ -2,9 +2,9 @@
 // console.log('mapApi')
 // import 'http://onlinereviews.org.uk/logicservegallery/js/data.json'
 
-const url =
+// const url = 'http://api.wikimapia.org/?key=example&function=place.getnearest&format=json'
   //   'http://api.wikimapia.org/?key=2B2B086C-804F267F-2DFC6CFB-79ACB72A-5938DC4B-E1A9458B-1C2C5C02-B5EB449F&function=place.getbyid&id=55&format=json'
-  'http://api.wikimapia.org/?key=example&function=place.getbyarea&coordsby=bbox&bbox=2.292493%2C48.8590143%2C2.293493%2C&format=json'
+//   'http://api.wikimapia.org/?key=example&function=place.getbyarea&coordsby=bbox&bbox=2.292493%2C48.8590143%2C2.293493%2C&format=json'
 
 const searchBtn = document.querySelector('#search button')
 searchBtn.innerHTML = 'Load Json Data'

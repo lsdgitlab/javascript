@@ -45,14 +45,59 @@
 })
 osm.addTo(map);
 
-// Dark mode
+// Water Color
+var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 1,
+	maxZoom: 16,
+	ext: 'jpg'
+});
+// watercolor.addTo(map)
 
+// Dark mode
 var darkmode = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 	subdomains: 'abcd',
 	maxZoom: 20
 });
-darkmode.addTo(map)
+// darkmode.addTo(map)
+
+// google street
+googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
+  maxZoom: 20,
+  subdomains:['mt0','mt1','mt2','mt3']
+});
+// googleStreets.addTo(map)
+
+// google satelite
+googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+  maxZoom: 20,
+  subdomains:['mt0','mt1','mt2','mt3']
+});
+// googleSat.addTo(map)
+
+// Marker
+var myIcon = L.icon({
+    iconUrl: 'img/black-placeholder.png',
+    iconSize: [40, 40]
+});
+singleMarker = L.marker([20.5937, 78.9629], {icon: myIcon, draggable : true});
+popup = singleMarker.bindPopup("Hi This is India" + singleMarker.getLatLng()).openPopup();
+popup.addTo(map);
+console.log(singleMarker.toGeoJSON());
+
+var baseMaps = {
+    "OSM": osm,
+    "Water Color": watercolor,
+    "Dark" : darkmode,
+    "Google Street" : googleStreets,
+    "Google Sat" : googleSat
+};
+
+var overlayMaps = {
+    "Marker": singleMarker
+};
 
 
 
